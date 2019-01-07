@@ -4,14 +4,15 @@
 
 	<div class="segment" style="padding-right:500px; width:500px; height: 200px;">
 	<form action="" method="post">
-		<table style="padding-left: 350px; padding-top: 65px; width:500px; height: 200px;">
+		<table style="padding-left: 350px; padding-top: 40px; width:500px; height: 200px;">
 		<tr>
            <td>Name:</td>
            <td><input type="text" name="name" id="name" required="" placeholder="Enter Name"></td>
          </tr>
 		<tr>
-           <td>Username:</td>
-           <td><input name="name" type="text" id="username" required="" placeholder="Enter Username"></td>
+		<tr>
+           <td>Group:</td>
+           <td><input name="name" type="text" id="username" required="" placeholder="Enter group name"></td>
          </tr>
          <tr>
            <td>Password:</td>

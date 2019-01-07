@@ -42,7 +42,9 @@ header("Last-Modified: " . gmdate("D, d M Y H:i:s") . " GMT");
 			<li><a href="index.php">Home</a></li>
 			<li><a href="users.php">Manage User</a></li>
 			<li><a href="quesadd.php">Add Question</a></li>
+		    <li><a href="raports.php">Add Raport</a></li>
 			<li><a href="queslist.php">Question List</a></li>
+			<li><a href="raportList.php">Raport List</a></li>
             <li><a href="viva_req.php">Students Result</a></li>
 			<li><a href="../calendar/html-pop-up-calendar-view.html">Calendar</a></li>
 			<li><a href="?action=logout">Logout</a></li>

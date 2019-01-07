@@ -27,6 +27,7 @@ $exm = new Exam();
                 <tr>
                     <th width="10%">ID</th>
                     <th width="75%">Questions</th>
+					<th width="75%">Select</th>
                     <th width="15%">Action</th>
                 </tr>
 
@@ -41,7 +42,8 @@ $exm = new Exam();
                         <tr>
                             <td><?php echo $i; ?></td>
                             <td><?php echo $result['ques']; ?></td>
-                            <td>
+							<td align="center"><input type="checkbox"></td>
+						    <td>
                                 <a style="color: red; text-decoration: none" onclick="return confirm('Are You Sure to Remove?')" href="?delQues=<?php echo $result['quesNo']; ?>">Remove</a>
                             </td>
                         </tr>

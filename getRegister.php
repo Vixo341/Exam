@@ -9,6 +9,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
     $password = $_POST['password'];
     $email = $_POST['email'];
 
+	
     $userReg = $usr->userRegistration($name, $username, $password, $email);
 }
 ?>

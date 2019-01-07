@@ -45,7 +45,7 @@ $usr = new User();
                <tr>
                  <th>No</th>
                  <th>Name</th>
-                 <th>Username</th>
+                 <th>Group</th>
                  <th>Email</th>
                  <th>Action</th>
                </tr>

@@ -56,6 +56,7 @@ if(isset($_GET['action']) && $_GET['action'] == 'logout'){
 			<li><a href="profile.php">Profile</a></li>
 			<li><a href="start_test.php">Exam</a></li>
 			<li><a href="myresults.php">My Results</a></li>
+			<li><a href="raports.php">Report List</a></li>
 			<li><a href="?action=logout">Logout</a></li>
 
             <?php }else {

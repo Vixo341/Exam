@@ -190,5 +190,35 @@ class User{
         return $result;
     }
 	
-}
+
+
+
+    public function insert_raport_data($title, $description, $dateStart, $dateEnd){
+        $query = "INSERT INTO tbl_raport(title, description, dateStart, dateEnd) VALUES('$title', '$description', '$dateStart', '$dateEnd')";
+        $insert_row = $this->db->insert($query);
+        if($insert_row){
+            echo "<span style='color: green'>info Successful!</span>";
+        }else{
+            echo "<span style='color: red'>info Unsuccessful!</span>";
+        }
+    }
+	
+	    public function getAllRaports(){
+        $query = "SELECT * FROM tbl_raport ORDER BY raportId ASC";
+        $result = $this->db->select($query);
+        return $result;
+    }
+	
+		public function deleteRaport($raportId){
+        $query = "DELETE FROM tbl_raport WHERE raportId = '$raportId'";
+        $delData = $this->db->delete($query);
+        if(isset($delData)){
+            $msg = "<span style='font-size: 17px' class='success'>Data Remove Successfully!</span>";
+            return $msg;
+        }else{
+            $msg = "<span style='font-size: 17px' class='success'>Data Not Remove!</span>";
+            return $msg;
+        }
+    }
+}	
 ?>
