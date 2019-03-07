@@ -60,24 +60,7 @@ INSERT INTO `tbl_ans` (`id`, `quesNo`, `rightAns`, `ans`) VALUES
 (25, 1, 1, 'available'),
 (26, 1, 0, 'Ipsum'),
 (27, 1, 0, 'established'),
-(28, 1, 0, 'passages'),
-(29, 2, 0, 'distracted'),
-(30, 2, 1, 'reader'),
-(31, 2, 0, 'Lorem'),
-(32, 2, 0, 'long'),
-(33, 3, 0, 'since '),
-(34, 3, 1, '1500s'),
-(35, 3, 0, 'dummy '),
-(36, 3, 0, 'standard '),
-(37, 4, 0, 'repeat '),
-(38, 4, 0, 'preefined '),
-(39, 4, 1, 'chunks '),
-(40, 4, 0, 'necessary'),
-(41, 5, 0, 'repetition'),
-(42, 5, 0, 'always '),
-(43, 5, 0, 'Ipsum '),
-(44, 5, 1, 'therefore ');
-
+(28, 1, 0, 'passages');
 -- --------------------------------------------------------
 
 --
@@ -95,11 +78,7 @@ CREATE TABLE `tbl_ques` (
 --
 
 INSERT INTO `tbl_ques` (`id`, `quesNo`, `ques`) VALUES
-(7, 1, 'Are there many variations of passages of Lorem Ipsum available?'),
-(8, 2, 'Is it a long established fact that a reader will be distracted?'),
-(9, 3, 'Lorem Ipsum has been the industry''s standard dummy text ever since the 1500s.'),
-(10, 4, 'All the Lorem Ipsum generators on the Internet tend to repeat preefined chunks as necessary?'),
-(11, 5, 'he generated Lorem Ipsum is therefore always free from repetition?');
+(7, 1, 'Are there many variations of passages of Lorem Ipsum available?');
 
 -- --------------------------------------------------------
 
@@ -121,9 +100,7 @@ CREATE TABLE `tbl_user` (
 --
 
 INSERT INTO `tbl_user` (`userId`, `name`, `username`, `password`, `email`, `status`) VALUES
-(1, 'Zakaria Hossain', 'Zakaria', '202cb962ac59075b964b07152d234b70', 'zakaria@gmail.com', 0),
-(3, 'Hasib Hasan', 'hasib', '202cb962ac59075b964b07152d234b70', 'hasib@gmail.com', 0),
-(4, 'James Ahmed', 'James', '202cb962ac59075b964b07152d234b70', 'jamesmahmud@gmail.com', 0);
+(1, 'Maciej Wojtek', 'Wojtek', '202cb962ac59075b964b07152d234b70', 'wojtek@gmail.com', 0);
 
 -- --------------------------------------------------------
 
@@ -144,7 +121,7 @@ CREATE TABLE `tbl_viva` (
 --
 
 INSERT INTO `tbl_viva` (`id`, `name`, `email`, `facebook`, `skype`) VALUES
-(1, 'Zakaria ', 'zakariahossain143@gmail.com', 'facebook.com/zakaria5729', 'skype.com/593');
+(1, 'Maciej ', 'wojtek@gmail.com', 'facebook.com/Wojtek', 'skype.com/Wojtek');
 
 --
 -- Indexes for dumped tables
